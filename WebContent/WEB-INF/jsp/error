@@ -1,0 +1,139 @@
+				<c:if test="${not empty deleteF_ERRO }">
+				<a class="btn btn-success"
+				href="mvc?Logica=AbrirAPP">
+				<span class="glyphicon glyphicon-remove"></span>
+				</a>
+					<center><div class="alert alert-danger" role="alert">
+							<span class="glyphicon glyphicon-alert"> </span>
+							PROBLEMAS AO DELETAR FORNECEDOR<br>
+							<small> Verifique se o mesmo não está associado a algum produto!</small>
+					</div></center>
+				</c:if>
+				<c:if test="${not empty deleteF_OK }">
+				<a class="btn btn-success"
+				href="mvc?Logica=AbrirAPP">
+				<span class="glyphicon glyphicon-remove"></span>
+				</a>
+					<center><div class="alert alert-success" role="alert">
+							<span class="glyphicon glyphicon-ok"></span>
+							FORNECEDOR DELETADO COM SUCESSO! 
+					</div></center>
+				</c:if>
+				
+				
+				
+				<c:if test="${not empty erroF }">
+				<a class="btn btn-success"
+				href="mvc?Logica=AbrirAPP">
+				<span class="glyphicon glyphicon-remove"></span>
+				</a>
+					<center><div class="alert alert-danger" role="alert">
+							<span class="glyphicon glyphicon-alert"> </span>
+							PROBLEMAS AO INSERIR FORNECEDOR<br>
+							<small> Tente novamente!</small>
+					</div></center>
+				</c:if>
+				<c:if test="${not empty okF }">
+				<a class="btn btn-success"
+				href="mvc?Logica=AbrirAPP">
+				<span class="glyphicon glyphicon-remove"></span>
+				</a>
+					<center><div class="alert alert-success" role="alert">
+							<span class="glyphicon glyphicon-ok"></span>
+							FORNECEDOR CADASTRADO COM SUCESSO! 
+					</div></center>
+				</c:if>
+				
+				
+				
+				<c:if test="${not empty erroP }">
+				<a class="btn btn-success"
+				href="mvc?Logica=AbrirAPP">
+				<span class="glyphicon glyphicon-remove"></span>
+				</a>
+					<center><div class="alert alert-danger" role="alert">
+							<span class="glyphicon glyphicon-alert"> </span>
+							PROBLEMAS AO INSERIR O PRODUTO<br>
+							<small> Tente novamente!</small>
+					</div></center>
+				</c:if>
+				<c:if test="${not empty okP }">
+				<a class="btn btn-success"
+				href="mvc?Logica=AbrirAPP">
+				<span class="glyphicon glyphicon-remove"></span>
+				</a>
+					<center><div class="alert alert-success" role="alert">
+							<span class="glyphicon glyphicon-ok"></span>
+							PRODUTO CADASTRADO COM SUCESSO! 
+					</div></center>
+				</c:if>
+				
+				
+				
+				<c:if test="${not empty deleteP_ERRO }">
+				<a class="btn btn-success"
+				href="mvc?Logica=AbrirAPP">
+				<span class="glyphicon glyphicon-remove"></span>
+				</a>
+					<center><div class="alert alert-danger" role="alert">
+							<span class="glyphicon glyphicon-alert"> </span>
+							PROBLEMAS AO DELETAR PRODUTO<br>
+							<small> Verifique se o mesmo não está associado a algum fornecedor!</small>
+					</div></center>
+				</c:if>
+				<c:if test="${not empty deleteP_OK }">
+				<a class="btn btn-success"
+				href="mvc?Logica=AbrirAPP">
+				<span class="glyphicon glyphicon-remove"></span>
+				</a>
+					<center><div class="alert alert-success" role="alert">
+							<span class="glyphicon glyphicon-ok"></span>
+							PRODUTO DELETADO COM SUCESSO! 
+					</div></center>
+				</c:if>
+				
+				
+				
+				<c:if test="${not empty atualizadoFornecedorERRO }">
+				<a class="btn btn-success"
+				href="mvc?Logica=AbrirAPP">
+				<span class="glyphicon glyphicon-remove"></span>
+				</a>
+					<center><div class="alert alert-danger" role="alert">
+							<span class="glyphicon glyphicon-alert"> </span>
+							PROBLEMAS AO ATUALIZAR O FORNECEDOR!
+					</div></center>
+				</c:if>
+				<c:if test="${not empty atualizadoFornecedorOK }">
+				<a class="btn btn-success"
+				href="mvc?Logica=AbrirAPP">
+				<span class="glyphicon glyphicon-remove"></span>
+				</a>
+					<center><div class="alert alert-success" role="alert">
+							<span class="glyphicon glyphicon-ok"></span>
+							FORNECEDOR ATUALIZADO COM SUCESSO!
+					</div></center>
+				</c:if>
+				
+				
+				
+				<c:if test="${not empty atualizadoProdutoERRO }">
+				<a class="btn btn-success"
+				href="mvc?Logica=AbrirAPP">
+				<span class="glyphicon glyphicon-remove"></span>
+				</a>
+					<center><div class="alert alert-danger" role="alert">
+							<span class="glyphicon glyphicon-alert"> </span>
+							PROBLEMAS AO ATUALIZAR O PRODUTO!
+					</div></center>
+				</c:if>
+				<c:if test="${not empty atualizadoProdutoOK }">
+				<a class="btn btn-success"
+				href="mvc?Logica=AbrirAPP">
+				<span class="glyphicon glyphicon-remove"></span>
+				</a>
+					<center><div class="alert alert-success" role="alert">
+							<span class="glyphicon glyphicon-ok"></span>
+							PRODUTO ATUALIZADO COM SUCESSO!
+					</div></center>
+				</c:if>
